@@ -1,9 +1,14 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const selectElement = document.getElementById('content-select');
     const iframe = document.getElementById('content-iframe');
 
     function loadContent(filePath) {
-        iframe.src = filePath;
+        if (filePath.startsWith('http')) {
+            iframe.src = filePath;
+        } else {
+            iframe.src = `./${filePath}`;
+        }
     }
 
     if (selectElement) {
@@ -16,4 +21,3 @@ document.addEventListener('DOMContentLoaded', () => {
         loadContent(selectElement.value);
     }
 });
-
