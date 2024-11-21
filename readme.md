@@ -21,5 +21,3 @@ This project provides an overview of various tools and modules. Click on a modul
 
 <hr>
 
-<script src="./js/scripts.js"></script>
-<link rel="stylesheet" type="text/css" href="./styles/styles.css">
