@@ -1,0 +1,18 @@
+
+
+.clock {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.imageOne {
+    background-color: #000000;
+    background-image: url('../images/a.png');
+    color: #ff0000;
+}
+
+.imageTwo {
+    background-color: #000000;
+    background-image: url('../images/b.png');
+    color: #00ff00;
+}
